@@ -1,0 +1,27 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.anh{
+    width: 100%;
+    padding: 10px 20px;
+}
+.anh>img{
+    width: 100%;
+    height: 550px;
+}
+.camnang>h2{
+    text-align: left;
+    color: tomato;
+}
+.camnang>p{
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.camnang>h5{
+    text-align:center;
+    color: tomato;
+    font-size: 40px;
+}

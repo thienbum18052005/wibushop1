@@ -1,0 +1,39 @@
+.giohang{
+    width: 100%;
+    margin-top: 30px;
+}
+.giohang>h5{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 30px;
+    color: tomato;  
+    margin-top: 30px;
+}
+.giohang>p{
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+    margin-left: 40px;
+}
+.them>p{
+    font-size: 30px;
+    color: tomato;
+}
+.them>a>input[type=submit]{
+    margin: 12px auto;
+    padding: 10px 24px;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid blue;
+    background-color: tomato;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}.them>a>input[type=submit]:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: white;
+
+}

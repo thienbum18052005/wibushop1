@@ -1,0 +1,96 @@
+body{
+    background: url(../imgacc/jujutsu-kaisen-satoru-gojo-uhdpaper.com-4K-7.3288.jpg);
+    background-size: cover;
+}
+.box{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trang{
+    max-width: 400px;
+    background:rgb(0,0,0,0.8);
+    flex-grow: 4;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 21px rgba(251, 251, 251, 0.8);
+}
+.thongtin>i{
+    color: white;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.thongtin{
+    border-bottom: 1px solid white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.input{
+    border: 0;
+    background: transparent;
+    outline: 0;
+    color: white;
+    flex-grow:1;
+}
+.input::placeholder{
+    color:rgb(253, 253, 253);
+}
+.eye>i{
+    color: white;
+    cursor: pointer;
+
+}
+.submit{
+    border:1px solid white;
+    background: transparent;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease;
+    margin-top: 30px;
+    border-radius: 17px;
+}
+.submit:hover{
+    background-color: red;
+    color:white;
+    border: 1px solid rgb(54, 191, 173) ;
+}
+.fb>a{
+    text-align: center;
+}
+.fb>a>img{
+    border-radius: 50%;
+    display: block;
+    height: 36px;
+    margin: 0 auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 50px;
+    margin-top: 20px;
+}
+.gg>a>img{
+    border-radius: 50%;
+    display: block;
+    height: 36px;
+    margin: 0 auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 50px;
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.new>a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
